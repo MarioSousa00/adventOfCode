@@ -26,6 +26,8 @@ func initChallengesMap() map[string]func(string) {
 
 	result["2023_01_01"] = advent2023.Day01_1;
 	result["2023_01_02"] = advent2023.Day01_2;
+	result["2023_02_01"] = advent2023.Day02_1;
+	result["2023_02_02"] = advent2023.Day02_2;
 
 	return result;
 }
